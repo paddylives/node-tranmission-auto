@@ -2,8 +2,7 @@
 var path = require("path");
 var fs = require("fs");
 var axios = require('axios');
-var config = require("./config.js");
-const { config } = require("process");
+const config = require("./config.js");
 var ptPathName = config.ptPathName;
 var finishPathName = config.finishPathName;
 let fileNameLsit = [];
